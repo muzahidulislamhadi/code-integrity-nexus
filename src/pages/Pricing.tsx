@@ -1,7 +1,8 @@
+
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { CheckCircle, XCircle, Bolt, ShieldCheck, TrendingUp, Code, Support, Cloud, Lock, Download, Star, Gem } from 'lucide-react';
+import { CheckCircle, XCircle, Bolt, ShieldCheck, TrendingUp, Code, HelpCircle, Cloud, Lock, Download, Star, Gem } from 'lucide-react';
 
 const Pricing = () => {
   return (
@@ -196,7 +197,7 @@ const Pricing = () => {
                 </p>
               </div>
               <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-2xl p-6">
-                <Support className="w-8 h-8 text-blue-400 mb-4" />
+                <HelpCircle className="w-8 h-8 text-blue-400 mb-4" />
                 <h3 className="text-xl font-semibold text-white mb-2">
                   Team Collaboration
                 </h3>
